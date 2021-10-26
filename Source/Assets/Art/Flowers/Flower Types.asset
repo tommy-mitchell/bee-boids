@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d5321901ef0b5469adce2a73c7c55b, type: 3}
+  m_Name: Flower Types
+  m_EditorClassIdentifier: 
+  _flowerTypes:
+  - Name: Pink
+    Sprites:
+      <FlowerBase>k__BackingField: {fileID: 21300000, guid: 5f0474261d236534095424bd1a27a754, type: 3}
+      <FlowerPollinated>k__BackingField: {fileID: 21300000, guid: 579856a7106d68e46b60cf1cded091c5, type: 3}
+      <FlowerDepleted>k__BackingField: {fileID: 21300000, guid: 2ee2165e2229a73408ea3a0bd5895641, type: 3}
+  - Name: Orange
+    Sprites:
+      <FlowerBase>k__BackingField: {fileID: 21300000, guid: 4ea8b41fab3da3b459a90260f87f00e0, type: 3}
+      <FlowerPollinated>k__BackingField: {fileID: 21300000, guid: 0d9456a2b2b528341b14aa626c48085b, type: 3}
+      <FlowerDepleted>k__BackingField: {fileID: 21300000, guid: b72c1e0c5bc2ae64bb6eb6bd9ba7b0e3, type: 3}
+  - Name: Blue
+    Sprites:
+      <FlowerBase>k__BackingField: {fileID: 21300000, guid: 7df7958bde9c7934481d4a08dc96659c, type: 3}
+      <FlowerPollinated>k__BackingField: {fileID: 21300000, guid: b0f54c8ef0c27a042b9b983c8dbad3c0, type: 3}
+      <FlowerDepleted>k__BackingField: {fileID: 21300000, guid: 85290042c27d9b54da341399b09be7c8, type: 3}
